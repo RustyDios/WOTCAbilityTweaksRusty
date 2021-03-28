@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>acc2ab03-35f2-4aca-8af8-b08b82b1b169</Guid>
+    <Name>WOTCAbilityTweaksRusty</Name>
+    <Description>This is all the bits of ADVENT Avengers Ability tweaks mod that I wanted keep, bar the Passive Icons which are now in their own mod.</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>WOTCAbilityTweaksRusty</AssemblyName>
+    <RootNamespace>WOTCAbilityTweaksRusty</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Content" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\WOTCAbilityTweaksRusty\" />
+    <Folder Include="Src\WOTCAbilityTweaksRusty\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComAI.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComClassData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameCore.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData_SoldierSkills.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData_WeaponData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComPistolSlot.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComRATConfig.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComNew2020Icons.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComPromotionUIMod.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComPGOverhaulExperimentalItems.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComStrategyTuning.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComWeaponSkinReplacer.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Rusty_KetarosPkg_Classes.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Rusty_SPARK_BitPerks.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILibrary_RATImages.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\WOTCAbilityTweaksRusty\Classes\X2Ability_MKP_RUSTY.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCAbilityTweaksRusty\Classes\X2Ability_PsiPCS.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCAbilityTweaksRusty\Classes\X2Ability_RustyBox.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCAbilityTweaksRusty\Classes\X2Ability_SPARKBitPerks.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCAbilityTweaksRusty\Classes\X2DownloadableContentInfo_WOTCAbilityTweaksRusty.uc" />
+    <Content Include="Src\WOTCAbilityTweaksRusty\Classes\X2Effect_SpawnMimic_DontCountAsCasualty.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCAbilityTweaksRusty\Classes\X2Effect_BPED_Fix_RUSTY.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCAbilityTweaksRusty\Classes\X2Effect_VM_RUSTY.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCAbilityTweaksRusty\Classes\X2Item_RustyBox.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCAbilityTweaksRusty\Classes\X2Item_RustyPCS.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>
